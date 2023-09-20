@@ -1,0 +1,58 @@
+<!-- Sign up form  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>          
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <center>
+        <form action="register.js" method="get">
+        <h1>Sign-up Form</h1>
+        <table>
+            <tr><td>First Name-</td><td><input type="text" name="fname" id="fname" placeholder="First name" required minlength="3"></td></tr>
+            <tr><td>Last Name-</td><td><input type="text" name="lname" id="lname" placeholder="Last name" required minlength="3"></td></tr>
+            <tr><td>Email-</td><td><input type="email" name="email" id="email" placeholder="@gmail.com" required minlength="3"></td></tr>
+            <tr><td>Password-</td><td><input type="password" name="password" id="password" placeholder="Password" required></td></tr>
+            <tr><td>Confirm Password-</td><td><input type="password" name="cpassword" id="cpassword" placeholder="Re type Password" required></td></tr>
+            <tr><td>Age-</td><td><input type="number" name="age" id="age" placeholder="Age" required min="1" max="150"></td></tr>
+            <tr>
+                <td>Gender-</td>
+                <td>
+                    <select name="gender" id="gender" required>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr><td>Terms and Conditions</td><td><input type="checkbox" name="t&c" id="t&c" required></td></tr>
+            <tr><td><input type="submit" name="submit" id="submit"></td></tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
+
+<!-- Sign in form  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign-in Form</title>
+</head>
+<body>
+    <center>
+    <form action="register.js" method="post">
+        <h1>Sign-in Form</h1>
+        <table>
+            <tr><td>Email-</td><td><input type="email" name="email" id="email" placeholder="@gmail.com" required minlength="3"></td></tr>
+            <tr>
+                <td>Password-</td>
+                <td><input type="password" name="password" id="password" placeholder="Password" required></td>
+            </tr>
+            <tr><td><input type="submit" name="submit" id="submit"></td></tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
+
